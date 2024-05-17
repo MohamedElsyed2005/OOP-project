@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="700.0" prefWidth="400.0" styleClass="gradient" stylesheets="@Stylee1.css">
+         <children>
+            <Label layoutX="153.0" layoutY="24.0" prefHeight="47.0" prefWidth="142.0" text="Device Store">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font>
+            </Label>
+            <FontAwesomeIcon glyphName="LAPTOP" layoutX="105.0" layoutY="60.0" size="3em" />
+            <Label layoutX="22.0" layoutY="86.0" prefHeight="30.0" prefWidth="134.0" text="Customer id :">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="receiptid" layoutX="225.0" layoutY="93.0" prefHeight="27.0" prefWidth="84.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="14.0" layoutY="130.0" prefHeight="314.0" prefWidth="370.0">
+               <children>
+                  <ScrollPane layoutY="8.0" prefHeight="314.4" prefWidth="370.4" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <content>
+                        <GridPane prefHeight="91.0" prefWidth="370.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Label prefHeight="18.0" prefWidth="81.0" text=" Laptop id :" />
+                              <Label prefHeight="18.0" prefWidth="180.0" GridPane.columnIndex="1" />
+                              <Label prefHeight="18.0" prefWidth="83.0" text=" Laptop Name :" GridPane.rowIndex="1" />
+                              <Label GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <Label text=" Quantity :" GridPane.rowIndex="2" />
+                              <Label GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <Label text=" Price :" GridPane.rowIndex="3" />
+                              <Label GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                           </children>
+                        </GridPane>
+                     </content>
+                  </ScrollPane>
+               </children>
+            </AnchorPane>
+            <Label layoutX="22.0" layoutY="456.0" prefHeight="27.0" prefWidth="84.0" text="Total ($) :">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="101.0" layoutY="497.0" prefHeight="27.0" prefWidth="103.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="104.0" layoutY="622.0" prefHeight="30.0" prefWidth="175.0" text="Thank you for your Order !!!">
+               <font>
+                  <Font name="System Italic" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="Cashir_name" layoutX="236.0" layoutY="558.0" prefHeight="36.0" prefWidth="150.0" />
+            <Label layoutX="236.0" layoutY="540.0" prefHeight="18.0" prefWidth="84.0" text="Cashier" />
+            <Label fx:id="receiptid" layoutX="267.0" layoutY="93.0" prefHeight="27.0" prefWidth="63.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

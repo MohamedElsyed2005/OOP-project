@@ -1,0 +1,127 @@
+.button
+{
+    -fx-background-color : #F38E08;
+    -fx-background-radius :  30 30 30 30;
+}
+.button:hover
+{
+    -fx-background-color : grey;
+    -fx-background-radius :  30 30 30 30;
+}
+
+
+.combo-box
+{
+    -fx-background-color: transparent;
+    -fx-border-color: #291b30;
+    -fx-background-radius :  25;
+    -fx-border-radius: 50%;
+}
+.combo-box:hover
+{
+    -fx-background-color : transparent;
+    -fx-border-radius: 30;
+    -fx-border-color: #F38E08;
+}
+
+
+.table-view .column-header,
+.table-view .column-header-background .filler {
+    -fx-cell-size : 20;
+    -fx-background-color:    #FA2C56;
+}
+.table-view .column-header .label{
+
+   -fx-text-fill: white;
+   -fx-font-weight: bold;
+   -fx-alignment: CENTER_LEFT;
+}
+.table-view .cell{
+   -fx-cell-size: 30;
+  -fx-alignment: center-left;
+  -fx-text-fill: #000000;
+}
+
+.table-row-cell:selected {
+    -fx-background-color:   #FA2C56;
+ }
+ .table-row-cell:selected .text {
+        -fx-fill : white ;
+
+ }
+/* scroll bar starts here */
+
+/* The increment and decrement button CSS class of scrollbar */
+.table-view .increment-button ,.table-view .decrement-button {
+    -fx-background-color:transparent;
+	-fx-background-radius: 2em;
+
+}
+
+/* The main scrollbar **track** CSS class  */
+.table-view .scroll-bar:horizontal .track,
+.table-view .scroll-bar:vertical .track{
+	-fx-background-color: transparent;
+	-fx-border-color:derive(  #2D75E8,80%);
+	-fx-background-radius: 2em;
+	-fx-border-radius:2em;
+}
+
+/* The main scrollbar **thumb** CSS class which we drag every time (movable) */
+.table-view .scroll-bar:horizontal .thumb,
+.table-view .scroll-bar:vertical .thumb {
+    -fx-background-color:derive( #2D75E8,90%);
+	-fx-background-insets: 2, 0, 0;
+	-fx-background-radius: 2em;
+
+}
+
+/* chart properties */
+
+.chart {
+    -fx-padding: 10px;
+    -fx-background-color: transparent;
+    -fx-legend-visible: false;
+}
+.chart-plot-background {
+    -fx-background-color:transparent;
+}
+
+.chart-pie {
+    -fx-border-color: derive(-fx-pie-color, 1%);
+    -fx-border-width: 0px;
+}
+.linear-grad
+{
+    -fx-background-color: linear-gradient(to bottom left, #A868A0, #2D75E8);
+}
+
+
+.gradient{
+    -fx-background-color:  #E2D5B5;
+    
+}
+
+.white-from{
+    -fx-background-color: #fff;
+}
+
+.head-label{
+    -fx-border-color: #F38E08;
+    -fx-border-width : 0 0 0 3px;
+    -fx-padding : 0 0 0 5px;
+}
+
+.textfield{
+    -fx-background-color: transparent;
+    -fx-border-color: #291b30;
+    -fx-background-radius :  25;
+    -fx-border-radius: 50%;
+}
+
+.textfield:hover{
+    -fx-margin-right:5px;
+    -fx-border-color: #F38E08;
+    -fx-width: 50%;
+}
+
