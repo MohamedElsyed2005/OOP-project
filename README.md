@@ -6,3 +6,7 @@ CSS
 Library: -
 JavaFx
 Jasper for report 
+
+there is how you can plugin jasper library with netbeans 
+https://community.jaspersoft.com/knowledgebase/how-to/build-jasper-report-using-jasper-library-using-net-beans-ide/
+
